@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "tensor_completion"
+version = "0.1.0"
+description = "Tensor completion for predicting future airport runway configurations"
+authors = ["Zachary Blanks <zdb6dz@virginia.edu>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas = "^1.4.2"
+matplotlib = "^3.5.1"
+PyQt5 = "^5.15.6"
+torch = "^1.11.0"
+pytorch-lightning = "^1.6.1"
+scikit-learn = "^1.0.2"
+
+[tool.poetry.dev-dependencies]
+black = "^22.3.0"
+pylama = "^8.3.8"
+mypy = "^0.942"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
